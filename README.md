@@ -115,7 +115,7 @@ The frontend is configured to proxy API requests to `http://localhost:5000` by d
 - CORS - Cross-Origin Resource Sharing
 - dotenv - Environment variable management
 - MySQL2 - MySQL database client
-- WebSocket - Real-time communication
+- RestAPI - Real-time communication
 - csv-parser - CSV file processing
 
 ### Frontend
