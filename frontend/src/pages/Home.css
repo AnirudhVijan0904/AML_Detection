@@ -1,0 +1,130 @@
+/* General Layout */
+.home-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1b1b1b;
+  background-color: #f7f9fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3a8a; /* Deep blue */
+  color: white;
+  padding: 15px 50px;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #a5b4fc;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin-top: 70px;
+  padding: 40px;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.get-started-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #3749b8;
+}
+
+/* Feature Cards */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 85%;
+}
+
+.feature-card {
+  background-color: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #555;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.feature-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.feature-btn:hover {
+  background-color: #3749b8;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}

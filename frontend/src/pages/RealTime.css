@@ -1,0 +1,117 @@
+.realtime-container {
+  padding: 2rem;
+  color: #222;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stream-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.stream-btn:hover {
+  background-color: #0056b3;
+}
+
+.filter-input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.transaction-table th, .transaction-table td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.clean {
+  background-color: #e8f5e9;
+}
+
+.suspicious {
+  background-color: #ffebee;
+  font-weight: bold;
+  color: #c62828;
+}
+
+.under-review {
+  background-color: #fff3e0;
+}
+
+.alert-panel {
+  background-color: #fff;
+  border-left: 4px solid #c62828;
+  padding: 1rem;
+  width: 60%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.alert-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.alert-panel li {
+  margin: 0.5rem 0;
+}
